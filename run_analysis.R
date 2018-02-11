@@ -72,4 +72,4 @@ output <- avgsdData %>%
   group_by(subject,activityname) %>%
   summarize_each(funs(mean))
 
-write.csv(output,"Output.csv", row.names = F)
+write.table(output,"Output.txt", row.names = F)
