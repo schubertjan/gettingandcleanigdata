@@ -3,9 +3,9 @@ The features selected for this database come from the accelerometer and gyroscop
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freqbodyaccelerometer -XYZ, freqbodyaccelerometerjerk-XYZ, freqbodygyroscope-XYZ, freqbodyaccelerometerjerkmag, freqbodygyroscopemag, fBodygyrospocejerkmag. (Note the 'freq' to indicate frequency domain signals).
 
-This data is merged with subject id (variable "subject") and activity of the subject (variable "activityname").
+This data is merged with subject id (variable "subject") and activity of the subject (variable "activityname"). "Subject" contains id or the study subjects, ranginf from 1 to 30. There are 6 activities. Each activity is described in variable "activitynames".
 
-#### Aggregations
-Mean values and standard deviations for each varible were selected. Those varibles were aggregated by mean for each subject and activity. Thus, the final dataset contains mean values for each variable by each subject and activity. 
+#### Data operations and aggregations
+First, a test and training dataset were merged. Second, mean values and standard deviations for each varible were selected. Those varibles were aggregated by mean for each subject and activity. Thus, the final dataset contains mean values for each variable by each subject and activity. 
 
 
